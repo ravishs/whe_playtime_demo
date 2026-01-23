@@ -22,5 +22,19 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Exempt action buttons from body inversion */
+body.invert button.bg-green-600,
+body.invert button.bg-blue-600,
+body.invert button.bg-red-600,
+body.invert input[type="checkbox"] {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: white !important;
+}
+
+/* Make moon icon dark in light mode (only affects moon, not sun) */
+body.invert button[aria-label="Toggle dark mode"] .text-zinc-700 {
+  color: #cccccc !important;
 }
