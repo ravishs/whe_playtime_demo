@@ -4,12 +4,6 @@ A modern, feature-rich web application built with Next.js 15, featuring a todos 
 
 ## Features
 
-### 🎨 **Dark/Light Mode Toggle**
-- Custom inverted color scheme for light mode
-- Seamless theme switching with localStorage persistence
-- Respects system preferences on first visit
-- Tailwind CSS-based implementation
-
 ### ✅ **Todos Manager**
 - Add, edit, and delete todos
 - Mark todos as complete/incomplete
