@@ -11,7 +11,7 @@ export default function Home() {
             Welcome to WHE Playtime Demo App
           </h1>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8">
-            This is the home page of your application.
+            This is the home page
           </p>
           <div className="mt-10">
             <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50 mb-4">
