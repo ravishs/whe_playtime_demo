@@ -38,7 +38,7 @@ export default function Contact() {
           Contact Us
         </h1>
         <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8">
-          Get in touch!!
+          Get in touch with us using the form below.
         </p>
 
         {submitted && (
