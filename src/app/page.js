@@ -15,7 +15,7 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50 mb-4">
-              Getting Started
+              Getting Started to App!!
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
               Navigate through the pages using the navigation bar above. Check out the Todos page to manage your tasks,
